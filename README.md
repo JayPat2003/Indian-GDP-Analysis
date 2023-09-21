@@ -5,7 +5,7 @@ This repository contains the code and resources for predicting and analyzing Ind
 ## Dataset
 
 ### Data Source
-The dataset used in this project is sourced from [insert data source/link].
+The dataset used in this project is sourced from https://www.kaggle.com/datasets/dheerajmukati/india-gdp-19602022
 
 ### Data Description
 - **Year**: The year for which the GDP data is recorded.
