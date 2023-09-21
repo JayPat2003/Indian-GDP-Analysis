@@ -17,12 +17,12 @@ The dataset used in this project is sourced from https://www.kaggle.com/datasets
 
 To run the code in this repository, you will need the following dependencies:
 
-- Python 3.x
-- pandas
-- numpy
-- scikit-learn
-- matplotlib
-- seaborn
+- Python 3.10.9
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
 
 You can install these dependencies using the following command:
 
