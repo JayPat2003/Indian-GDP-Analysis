@@ -1,6 +1,6 @@
 # Indian GDP Prediction and Analysis (1980-2023)
 
-This repository contains the code and resources for predicting and analyzing Indian Gross Domestic Product (GDP) from the year 1980 to 2023. The analysis is based on a dataset with four columns: Year, GDP(in Billion $ PPP), GDP Per capita (in Billion $ PPP),GDP per capita (in US$ nominal), GDP growth(real), Inflation rate (in Percent).
+This repository contains the code and resources for predicting and analyzing Indian Gross Domestic Product (GDP) from the year 1980 to 2023. The analysis is based on a dataset with 7 columns: Year, GDP(in Billion $ PPP), GDP Per capita (in Billion $ PPP),GDP per capita (in US$ nominal), GDP growth(real), Inflation rate (in Percent).
 
 ## Dataset
 
