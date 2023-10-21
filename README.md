@@ -1,11 +1,11 @@
-# Indian GDP Prediction and Analysis (1960-2022)
+# Indian GDP Prediction and Analysis (1980-2023)
 
-This repository contains the code and resources for predicting and analyzing Indian Gross Domestic Product (GDP) from the year 1960 to 2022. The analysis is based on a dataset with four columns: Year, Per capita GDP, Total GDP, and Growth rate. The Random Forest Classifier algorithm was used for this project.
+This repository contains the code and resources for predicting and analyzing Indian Gross Domestic Product (GDP) from the year 1980 to 2023. The analysis is based on a dataset with four columns: Year, GDP(in Billion $ PPP), GDP Per capita (in Billion $ PPP),GDP per capita (in US$ nominal), GDP growth(real), Inflation rate (in Percent).
 
 ## Dataset
 
 ### Data Source
-The dataset used in this project is sourced from https://www.kaggle.com/datasets/dheerajmukati/india-gdp-19602022
+The dataset used in this project is sourced from https://en.wikipedia.org/wiki/Economy_of_India
 
 ### Data Description
 - **Year**: The year for which the GDP data is recorded.
@@ -17,7 +17,7 @@ The dataset used in this project is sourced from https://www.kaggle.com/datasets
 
 To run the code in this repository, you will need the following dependencies:
 
-- Python 3.10.9
+- Python 3.11.5
 - Pandas
 - NumPy
 - Scikit-learn
