@@ -48,7 +48,7 @@ After rigorous model exploration, the ARIMA model emerged as the most suitable c
 
 ## Data Source
 
-We'd like to express our gratitude to the [Wikipedia](https://en.wikipedia.org/wiki/Economy_of_India) for providing the GDP dataset. This project would not have been possible without access to this valuable information.
+I'd like to express our gratitude to the [Wikipedia](https://en.wikipedia.org/wiki/Economy_of_India) for providing the GDP dataset. This project would not have been possible without access to this valuable information.
 
 ## License
 
