@@ -1,94 +1,63 @@
-# Indian GDP Prediction and Analysis (1980-2023)
+# GDP Prediction with Time Series Analysis
 
-This repository contains the code and resources for predicting and analyzing Indian Gross Domestic Product (GDP) from the year 1980 to 2023. The analysis is based on a dataset with 7 columns: Year, GDP(in Billion $ PPP), GDP Per capita (in Billion $ PPP),GDP per capita (in US$ nominal), GDP growth(real), Inflation rate (in Percent).
+![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Dataset
+## Overview
 
-### Data Source
-The dataset used in this project is sourced from https://en.wikipedia.org/wiki/Economy_of_India
+This project aims to forecast India's Gross Domestic Product (GDP) using time series analysis. GDP prediction is a critical aspect of economic planning and decision-making, and accurate forecasts are essential for government policies, business strategies, and investment decisions.
 
-### Data Description
-- **Year**: The year for which the GDP data is recorded.
-- **Per capita GDP**: The GDP per capita, which is the total GDP divided by the population.
-- **Total GDP**: The total Gross Domestic Product of India for a specific year.
-- **Growth rate**: The annual growth rate of the GDP.
+In this project, we explore various forecasting models, including ARIMA, Linear Regression, Random Forest, and XGBoost, to identify the most reliable predictor for India's economic growth.
 
-## Dependencies
+## Project Highlights
 
-To run the code in this repository, you will need the following dependencies:
+### Model Performance
 
-- Python 3.11.5
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Seaborn
+We evaluated the performance of different models using key metrics:
 
-You can install these dependencies using the following command:
+#### ARIMA Model
+- Root Mean Squared Error (RMSE): 0.06
+- Mean Absolute Error (MAE): 0.04
+- Mean Absolute Percentage Error (MAPE): 5.93%
 
-```bash
-pip install -r requirements.txt
-```
+#### Linear Regression
+- RMSE: 0.07
+- MAE: 0.06
+- MAPE: 101.70%
 
-## Usage
+#### Random Forest
+- RMSE: 0.17
+- MAE: 0.17
+- MAPE: 17.37%
 
-1. Clone this repository to your local machine:
+#### XGBoost
+- RMSE: 0.09
+- MAE: 0.09
+- MAPE: 9.45%
 
-```bash
-git clone https://github.com/yourusername/indian-gdp-prediction.git
-```
+### Conclusion
 
-2. Navigate to the project directory:
+After rigorous model exploration, the ARIMA model emerged as the most suitable choice for GDP prediction. Its consistent performance, with the lowest RMSE and MAPE, reflects its capability to deliver precise and dependable forecasts. The ARIMA model's emphasis on time series forecasting aligns perfectly with our project's objective of predicting future GDP trends in India.
 
-```bash
-cd indian-gdp-prediction
-```
+## How to Use
 
-3. Run the Jupyter Notebook or Python script to perform analysis and prediction:
+1. Clone this repository to your local machine.
+2. Install the required libraries and dependencies listed in the `requirements.txt` file.
+3. Explore the project using the Jupyter Notebook `GDP_Prediction.ipynb`.
+4. Customize models and features to adapt the project to your specific use case.
+5. Deploy the selected model for real-time GDP forecasts.
 
-```bash
-jupyter notebook Indian_GDP_Prediction.ipynb
-```
+## Data Source
 
-or
-
-```bash
-python indian_gdp_prediction.py
-```
-
-## Analysis and Visualization
-
-This project includes several visualizations to help you understand the Indian GDP data better. You can find these visualizations in the [visualization](./visualization) directory. Some of the key visualizations include:
-
-1. **Line Plot**: Line chart showing the trend in Indian GDP over the years.
-   
-   ![Line Plot](./visualization/line_plot.png)
-
-2. **Heatmap**: Heatmap showing the correlation between different GDP-related variables.
-
-   ![Heatmap](./visualization/heatmap.png)
-
-(Add more visualizations and descriptions as needed)
-
-## Results
-
-(Describe the results of your analysis and prediction here. Include any insights or conclusions you've drawn from the data.)
-
-## Contributing
-
-If you'd like to contribute to this project, please follow these guidelines:
-
-1. Fork the repository on GitHub.
-2. Clone your forked repository to your local machine.
-3. Create a new branch for your feature or bug fix.
-4. Make your changes and commit them with descriptive messages.
-5. Push your changes to your GitHub fork.
-6. Submit a pull request to the main repository.
+We'd like to express our gratitude to the [Wikipedia](https://en.wikipedia.org/wiki/Economy_of_India) for providing the GDP dataset. This project would not have been possible without access to this valuable information.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Acknowledgments
 
-- Special thanks to [insert names or organizations] for providing the dataset.
+We extend our appreciation to the open-source community for their valuable contributions and insights that have enriched this project.
+
+For a more comprehensive analysis and detailed exploration of the models, please refer to the [Jupyter Notebook](GDP_Prediction.ipynb) included in this repository.
+
+Feel free to contribute and enhance the project, making it an even more powerful tool for GDP prediction.
